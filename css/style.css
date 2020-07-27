@@ -241,25 +241,21 @@ a {
   transition: left 0.5s, right 0.5s;
   position: fixed;
   z-index: 1;
-  right: -375px;
-  top: 0;
+  right: -2000px;
+  top: -2000px;
   background-color: rgba(0, 0, 0, 0.7);
 }
 @media (min-width: 481px) {
   .l-modal {
     width: 100%;
     transition: top 0.5s, bottom 0.5s;
-    top: -1500px;
-    right: 0px;
+    top: -2000px;
+    right: -2000px;
   }
 }
 .l-modal.js-is-show {
   right: 0;
-}
-@media (min-width: 481px) {
-  .l-modal.js-is-show {
-    top: 0px;
-  }
+  top: 0;
 }
 .l-modal__potision {
   position: relative;
